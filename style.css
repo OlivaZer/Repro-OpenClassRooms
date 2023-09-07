@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    font-size: 1.3em;
+}
+
+
+.header-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.fa-magnifying-glass{
+    font-size:1.7em ;
+}
+
+.nav-profil{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: solid 1px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.nav-profil p {
+    border: solid 1px;
+    border-radius: 32px;
+    padding: 9px;
+    background-color: RGB(26, 66, 126);
+    color: white;
+}
