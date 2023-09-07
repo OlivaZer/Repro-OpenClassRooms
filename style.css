@@ -53,3 +53,7 @@ nav ul{
     background-color: RGB(26, 66, 126);
     color: white;
 }
+
+.header-right a{
+    color: black;
+}
