@@ -11,8 +11,10 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 190px;
+    margin-right: 190px;
+    height: 63px;
+    max-height: 63px;
 }
 
 .header-left{
@@ -40,7 +42,7 @@ nav ul{
 .nav-profil{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     border: solid 1px;
     border-radius: 25px;
     padding: 5px;
@@ -57,3 +59,82 @@ nav ul{
 .header-right a{
     color: black;
 }
+
+
+/* Partie Sub */
+
+#subscrib-all{
+    background-color: RGB(255, 250, 239);
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.subscrib-left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 197px;
+    gap: 30px;
+}
+
+.subscrib-left h1{
+    font-size: 3em;
+    
+    
+}
+
+.subscrib-left p {
+    font-size: 1.2em;
+    line-height: 25px;   
+}
+
+.button-sub a{
+    font-size: 1.2em;
+    border: solid 1px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+.button-sub .demarrer{
+    background-color: RGB(116, 80, 235);
+
+}
+
+.button-sub .decouvrir{
+    color: RGB(116, 80, 235);
+    margin-left: 10px;
+    
+}
+
+.button-sub .decouvrir:hover{
+    background-color: rgba(116, 80, 235, 0.2);
+    
+}
+
+
+
+.subscrib-right{
+    width: 40%;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.subscrib-right figure{
+    max-width:  350px;
+
+}
+.subscrib-right img{
+    width: 100%;
+    
+}
+
