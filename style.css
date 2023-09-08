@@ -63,7 +63,7 @@ nav ul{
 }
 
 
-/* Partie Sub */
+/* SECTION SUB */
 
 #subscrib-all{
     background-color: RGB(255, 250, 239);
@@ -115,6 +115,7 @@ nav ul{
 .button-sub .decouvrir{
     color: RGB(116, 80, 235);
     margin-left: 10px;
+    transition: 0.5s;
     
 }
 
@@ -234,6 +235,12 @@ nav ul{
     border-radius: 5px;
     color: RGB(117, 80, 235);
     font-weight: bold;
+    transition: 0.5s;
+}
+
+#section-alternance a:hover{
+    background-color: rgba(116, 80, 235, 0.2);
+    
 }
 
 .div-alternance{
