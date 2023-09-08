@@ -3,10 +3,12 @@
     margin: 0;
     text-decoration: none;
     list-style-type: none;
+    font-family: 'Manrope', sans-serif;
     
 }
 
 header{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -67,6 +69,8 @@ nav ul{
     background-color: RGB(255, 250, 239);
     display: flex;
     justify-content: space-between;
+    border-top: solid 1px rgb(208, 207, 207); 
+    
     
     
 }
@@ -138,3 +142,141 @@ nav ul{
     
 }
 
+/* SECTION SAVOIR FAIRE */
+
+#section-savoir-faire{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+
+.top-savoir-faire {
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.top-savoir-faire h2{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+
+
+.bottom-savoir-faire{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.bottom-savoir-faire h3{
+    line-height: 30px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    
+}
+
+.bottom-savoir-faire p{
+    line-height: 25px;
+    font-size: 1.2em;
+    margin-bottom: 60px;
+    
+}
+
+.all-savoir-faire{
+    width: 400px;
+}
+
+/* SECTION ALTERNANCE */
+
+#section-alternance {
+    background-color: RGB(255, 250, 239);
+    width: 100%;
+    padding: 60px 0 ;
+    
+    
+}
+
+#section-alternance i {
+    font-size: 50px;
+    color: RGB(176, 162, 239);
+    
+}
+
+#section-alternance h2{
+    margin: 0 190px;
+    background-color: RGB(255, 250, 239);
+    font-size: 2em;
+    margin-bottom: 40px;
+    
+    
+}
+
+#section-alternance p,
+#section-alternance h3,
+#section-alternance i{
+    margin-bottom: 20px; 
+}
+
+#section-alternance p{
+    line-height: 25px;
+}
+
+#section-alternance a{
+
+    border: solid 1px RGB(117, 80, 235);
+    padding: 9px 25px;
+    border-radius: 5px;
+    color: RGB(117, 80, 235);
+    font-weight: bold;
+}
+
+.div-alternance{
+    display: flex;
+    margin: 0 190px;
+}
+
+.div-alternance hr{
+    color: #fff;
+}
+
+.alternance-employeurs{
+    margin-left: 100px;
+}
+
+/* SECTION INSCRIPTION */
+
+.container-inscription{
+    margin: 0 190px;
+    display: flex;
+    padding: 60px 0 ;
+    gap: 100px;
+
+}
+
+.container-inscription h2{
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.container-inscription p{
+    line-height: 25px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.container-inscription a{
+
+    border: solid 1px RGB(117, 80, 235);
+    padding: 9px 25px;
+    border-radius: 5px;
+    color: RGB(117, 80, 235);
+    font-weight: bold;
+    background-color: RGB(116, 80, 235);
+    color: white;
+}
