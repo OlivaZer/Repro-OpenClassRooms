@@ -47,15 +47,20 @@ nav ul{
     gap: 15px;
     border: solid 1px;
     border-radius: 25px;
-    padding: 5px;
+    padding: 3px;
+    
 }
 
 .nav-profil p {
     border: solid 1px;
     border-radius: 32px;
-    padding: 9px;
+    padding: 8px 10px;
     background-color: RGB(26, 66, 126);
     color: white;
+}
+
+.nav-profil a {
+    margin-right: 10px;
 }
 
 .header-right a{
@@ -286,4 +291,67 @@ nav ul{
     font-weight: bold;
     background-color: RGB(116, 80, 235);
     color: white;
+}
+
+/* DIV SLIDER */
+
+#section-slider{
+    width: 100%;
+}
+
+.div-slider1,
+.div-slider2,
+.div-slider3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div-slider1{
+    background-color: RGB(153, 171, 247) ;
+}
+
+.div-slider2{
+    background-color: RGB(246, 233, 30);
+}
+
+.div-slider3{
+    background-color: RGB(255, 173, 17);
+}
+
+.slider1,
+.slider2,
+.slider3{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    gap: 2rem;
+    
+    
+}
+
+.title-slider{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+#section-slider h3{
+    font-size: 1.5em;
+}
+
+#section-slider h3,
+.slider-name,
+.slider-work {
+    font-weight: bold;
+}
+
+#section-slider i{
+    font-size: 80px;
+}
+
+.slider-work{
+    margin-bottom: 20px;
 }
