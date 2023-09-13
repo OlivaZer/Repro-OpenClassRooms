@@ -456,8 +456,40 @@ footer{
     padding: 10px;
     width: 30px;
     color: black;
+    transition: 0.3s;
 }
 
 footer img{
     width: 150px;
 } 
+
+.fa-facebook-f:hover{
+    background-color:RGB(10, 128, 236) ;
+    color: white;
+    border: solid 1px white;
+}
+
+.fa-x-twitter:hover{
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    
+}
+.fa-linkedin:hover{
+    background-color:RGB(11, 102, 194) ; 
+    color: white;
+    border: solid 1px white;
+}
+.fa-instagram:hover{
+    background: linear-gradient(45deg, #e9df50, #bc2a8d);
+    color: white;
+    border: solid 1px white;
+}
+
+
+.fa-youtube:hover{
+    background-color:RGB(255, 0, 0) ;
+    color: white;
+    border: solid 1px white;
+    
+}
