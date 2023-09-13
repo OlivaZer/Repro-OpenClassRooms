@@ -297,6 +297,26 @@ nav ul{
 
 #section-slider{
     width: 100%;
+    position: relative;
+    
+}
+
+.all-slider{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    /* position: relative; */
+    scroll-behavior: smooth;
+}
+
+.button-slider {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    gap: 100%;
+    
 }
 
 .div-slider1,
@@ -320,6 +340,12 @@ nav ul{
     background-color: RGB(255, 173, 17);
 }
 
+.div-slider1,
+.div-slider2,
+.div-slider3{
+    min-width: 100%;
+}
+
 .slider1,
 .slider2,
 .slider3{
@@ -327,6 +353,7 @@ nav ul{
     align-items: center;
     width: 80%;
     gap: 2rem;
+    
     
     
 }
@@ -348,7 +375,7 @@ nav ul{
     font-weight: bold;
 }
 
-#section-slider i{
+.fa-quote-left {
     font-size: 80px;
 }
 
