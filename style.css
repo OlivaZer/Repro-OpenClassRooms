@@ -28,6 +28,7 @@ nav ul{
     display: flex;
     gap: 30px;
     font-size: 1.3em;
+    margin-left: 20px;
 }
 
 
@@ -133,14 +134,14 @@ nav ul{
 
 .subscrib-right{
     width: 40%;
-    padding-right: 50px;
+    margin-right: 195px;
     display: flex;
     align-items: center;
     justify-content: center;   
 }
 
 .subscrib-right figure{
-    max-width:  350px;
+    max-width:  570px;
 
 }
 .subscrib-right img{
