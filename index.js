@@ -19,5 +19,10 @@ function next() {
 }
 
 
+function togglePopupBurger(){
+    let popup = document.querySelector("nav ul");
+    popup.classList.toggle("open");
+}
+
 
 

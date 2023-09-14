@@ -14,13 +14,18 @@
 <body>
     <header>
         <div class="header-left">
+            <a onclick="togglePopupBurger()" class="menu-burger" href="javascript:void(0)"><i class="fa-solid fa-bars"></i></a>
             <a href="#"><img src="imgs/test.png" alt="Logo Logo-OpenClassrooms"></a>
             <nav>
-                <ul>
+                <ul class="ul-burger">
+                    <a class="img-nav" href="#"><img src="imgs/test.png" alt="Logo Logo-OpenClassrooms"></a>
+                    <hr>
                     <a href="#"><li>Formations</li></a>
                     <a href="#"><li>Alternances</li></a>
                     <a href="#"><li>Financements</li></a>
+                    <hr>
                     <a href="#"><li>Pour les entreprises</li></a>
+                    <a class="nav-exit" href="javascript:void(0)" onclick="togglePopupBurger()"><i class="fa-solid fa-xmark"></i></a>
                 </ul>
             </nav>
         </div>
