@@ -532,6 +532,10 @@ footer img{
 }
 
 @media screen and (max-width: 1110px){
+    .header-left img{
+        width: 80%;
+    }
+    
     #subscrib-all{
         flex-direction: column;
         padding-top: 20px;
@@ -588,6 +592,106 @@ footer img{
         
     }
 
+    .bottom-savoir-faire {
+        gap: 50px;
+        align-items: flex-start;
+        
+    }
+
+    .all-savoir-faire figure img{
+        width: 190px;
+    }
+
+    .all-savoir-faire p{
+        font-size: 1em;
+    }
+
+    .all-savoir-faire{
+        width: 200px;
+    }
+    .container-inscription{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    .container-inscription img{
+        width: 700px;
+    }
+
+    .slider1,
+    .slider2,
+    .slider3{
+    flex-direction: column; 
+    
 }
+
+    .slider1 img,
+    .slider2 img,
+    .slider3 img{
+    width: 70%;
+    margin-top: 100px;
+    }
+
+    .info-slider{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .title-slider{
+        position: absolute;
+        top: 0;
+        left: 50px;
+        padding-left: 20px;
+    }
+ 
+
+}
+
+@media screen and (max-width: 770px){
+
+    .button-sub{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .button-sub .decouvrir{
+        margin-left: 0;
+        
+    }
+    .bottom-savoir-faire {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        
+    } 
+    .all-savoir-faire {
+        width: 100%;
+        margin: 0 100px;
+    }
+
+    .container-inscription img{
+        width: 300px;
+    }
+
+    .div-alternance{
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .div-alternance hr{
+        display: none;
+    }
+
+    .alternance-employeurs{
+        margin-left: 0;
+    }
+
+}
+
+
 
 
